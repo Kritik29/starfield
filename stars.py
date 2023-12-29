@@ -14,7 +14,6 @@ colours = ['\033[31m', '\033[32m', '\033[33m', '\033[35m', '\033[36m', '\033[37m
 
 # store the number of columns of the terminal
 t_w = os.get_terminal_size()[0]
-t_h = os.get_terminal_size()[1]
 
 def make_row():
   # generate each row to print by randomly selecting stars from the array
